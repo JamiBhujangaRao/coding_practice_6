@@ -12,7 +12,7 @@ const convertingStateDbObject = (dbObject) => {
   return {
     stateId: dbObject.state_id,
     stateName: dbObject.state_name,
-    polulation: dbObject.polulation,
+    population: dbObject.population,
   }
 }
 
